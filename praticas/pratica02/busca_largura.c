@@ -48,7 +48,9 @@ Fila* criar_fila(int capacidade) {
     return f;
 }
 
-bool fila_vazia(Fila *f) { return f->tamanho == 0; }
+bool fila_vazia(const Fila *f) {
+    return f->tamanho == 0;
+}
 
 void enfileirar(Fila *f, int valor) {
     if (f->tamanho == f->capacidade) return;
