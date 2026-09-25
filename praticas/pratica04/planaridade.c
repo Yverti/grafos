@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "planaridade.h"
 
 bool eh_planar_euler(GrafoLista* g) {
